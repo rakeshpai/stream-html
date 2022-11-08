@@ -1,6 +1,6 @@
 {
   "name": "stream-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "stream-html.min.js",
   "scripts": {
@@ -10,7 +10,12 @@
     "stream-html.min.js",
     "stream-html.min.js.map"
   ],
-  "keywords": ["web-component", "stream", "html", "performance"],
+  "keywords": [
+    "web-component",
+    "stream",
+    "html",
+    "performance"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
