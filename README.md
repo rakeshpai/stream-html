@@ -4,7 +4,7 @@ A tiny web component for streaming HTML fragments to any location on a web page.
 
 TL;DR:
 ```html
-<script src="https://unkpg.com/stream-html@1.0.0/stream-html.min.js"></script>
+<script src="https://unpkg.com/stream-html@1.0.0/stream-html.min.js"></script>
 <stream-html src="/path/to/some.html"></stream-html>
 ```
 ## The problem
