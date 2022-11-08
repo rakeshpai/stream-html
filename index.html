@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./stream-html.js"></script>
+</head>
+<body>
+  Header
+  <stream-html src="test-fragment-1.html"></stream-html>
+  Footer
+
+  <script>
+    window.onload = () => {
+      console.log('window loaded');
+      setTimeout(() => {
+        console.log('Changing attribte');
+        document.querySelector('stream-html').setAttribute('src', 'test-fragment-2.html');
+      }, 5000);
+    }
+  </script>
+</body>
+</html>

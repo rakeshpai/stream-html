@@ -1,0 +1,19 @@
+{
+  "name": "stream-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stream-html.min.js",
+  "scripts": {
+    "build": "terser stream-html.js --compress ecma=2021 --mangle --module --output stream-html.min.js --source-map"
+  },
+  "files": [
+    "stream-html.min.js",
+    "stream-html.min.js.map"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "terser": "^5.15.1"
+  }
+}
