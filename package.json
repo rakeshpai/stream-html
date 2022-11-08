@@ -10,9 +10,9 @@
     "stream-html.min.js",
     "stream-html.min.js.map"
   ],
-  "keywords": [],
+  "keywords": ["web-component", "stream", "html", "performance"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "terser": "^5.15.1"
   }
